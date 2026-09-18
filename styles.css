@@ -1,0 +1,16 @@
+.product-container{
+    justify-content: center;
+}
+
+.product-card{
+    background-color: chocolate;
+    border: 3px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.out-of-stock{
+    color: red;
+    background-color: gray;
+    opacity: 50;
+}
