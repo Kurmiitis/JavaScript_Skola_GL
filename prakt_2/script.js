@@ -19,6 +19,7 @@ function renderProducts(items) {
         return `<div class="product-card ${status}">
             <h3>${product.name}</h3>
             <p>${price}</p>
+            <p>${product.category}</p>
         </div>`;
     }).join('');
 
