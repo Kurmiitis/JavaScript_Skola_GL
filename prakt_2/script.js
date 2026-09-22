@@ -8,17 +8,17 @@ const products = [
 
 function renderProducts(items) {
     let html = items.map(product => {
-        let statusClass="";
-        let priceText="$"+ product.price;
+        let status="";
+        let price="$"+ product.price;
 
         if (!product.inStock) {
-            statusClass= "out-of-stock";
-            priceText = "Out of Stock";
+            status= "out-of-stock";
+            price = "Out of Stock";
         }
 
-        return `<div class="product-card ${statusClass}">
+        return `<div class="product-card ${status}">
             <h3>${product.name}</h3>
-            <p>${priceText}</p>
+            <p>${price}</p>
         </div>`;
     }).join('');
 
