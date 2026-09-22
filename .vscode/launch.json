@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\User\\Desktop\\Testeeshana\\03_03_2026_lekcijas_darbs_GL\\JavaScript_Skola_GL\\index.html"
+            "file": "c:\\Users\\User\\Desktop\\Testeeshana\\03_03_2026_lekcijas_darbs_GL\\JavaScript_Skola_GL\\prakt_2\\index.html"
         }
     ]
 }

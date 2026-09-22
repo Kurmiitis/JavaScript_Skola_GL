@@ -10,18 +10,6 @@ header {
     margin-bottom: 20px;
 }
 
-nav {
-    display: flex;
-    justify-content: left;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-nav button {
-    padding: 8px 16px;
-    cursor: pointer;
-}
-
 #product-container {
     display: flex;
     flex-wrap: wrap;

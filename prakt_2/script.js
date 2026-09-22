@@ -8,11 +8,11 @@ const products = [
 
 function renderProducts(items) {
     let html = items.map(product => {
-        let statusClass = "";
-        let priceText = "$" + product.price;
+        let statusClass="";
+        let priceText="$"+ product.price;
 
         if (!product.inStock) {
-            statusClass = "out-of-stock";
+            statusClass= "out-of-stock";
             priceText = "Out of Stock";
         }
 
