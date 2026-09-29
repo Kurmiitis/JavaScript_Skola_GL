@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Weather history</h1>
+
+        <label for="latitude">Latitude</label>
+        <input type="text" id="latitude" name="latitude"><br>
+
+        <label for="longitude">Longitude</label>
+        <input type="text" id="longitude" name="longitude"><br>
+
+        <input type="date" id="start_date" pattern="\d{4}-\d{2}-\d{2}">Start date<br>
+
+        <input type="date" id="end_date" pattern="\d{4}-\d{2}-\d{2}">End date<br>
+
+        <input type="button" id="submit" value="Submit"><br>
+        
+        <table>
+            <tr>
+                <th>Date & Time</th>
+                <th>Temperature</th>
+                <th>Precipitation</th>
+                <th>Wind Speed</th>
+            </tr>
+            <tbody id="results">
+
+            </tbody>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+</html>
